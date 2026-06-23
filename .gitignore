@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Secrets / local configs
+.env
+*.key
+*.pem
+config_local.*
+credentials.*
+token.*
+
+# Raw data / datasets
+data/
+raw/
+dataset/
+datasets/
+BIDS/
+bids/
+derivatives/
+sourcedata/
+private/
+
+# Neuroimaging files
+*.nii
+*.nii.gz
+*.mgz
+*.mgh
+*.dcm
+*.ima
+*.json.gz
+
+# SPM / MATLAB output files
+*.mat
+y_*.nii
+iy_*.nii
+c1*.nii
+c2*.nii
+c3*.nii
+c4*.nii
+c5*.nii
+mwc*.nii
+wc*.nii
+w*.nii
+r*.nii
+mean*.nii
+
+# rapidtide / rsCVR outputs
+rapidtide/
+RapidTide/
+*_desc-*.nii.gz
+*_map.nii.gz
+*_mask.nii.gz
+*_regressor*.txt
+*_lag*.txt
+*_CVR*.txt
+
+# Output folders
+outputs/
+results/
+logs/
+figures/
+figs/
+qc/
+summary/
+checkpoints/
+models/
+
+# Generated files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
